@@ -11,7 +11,7 @@ flutter pub run easy_localization:generate --source-dir ./resources/lang
 
 2. If you have many localization keys and are confused, key generation will help you. 
 The code editor will automatically prompt keys. goto terminal and paste it.
-flutter pub run easy_localization:generate -S ./resources/lang  -f keys -o locale_keys.g.dar
+flutter pub run easy_localization:generate -S ./resources/lang  -f keys -o locale_keys.g.dart
 
 
 
