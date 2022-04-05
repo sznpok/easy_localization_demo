@@ -13,6 +13,7 @@ flutter pub run easy_localization:generate --source-dir ./resources/lang
 The code editor will automatically prompt keys. goto terminal and paste it.
 flutter pub run easy_localization:generate -S ./resources/lang  -f keys -o locale_keys.g.dart
 
+flutter build apk --obfuscate --split-debug-info=./ --release
 
 
 A few resources to get you started if this is your first Flutter project:
